@@ -48,6 +48,18 @@ npx http-server capstone-ecommerce -p 8000
 
 ## Deployment
 
+### Vercel (recommended)
+
+1. Push this folder to a GitHub repository.
+2. Import the repo in [Vercel](https://vercel.com) → Add New Project.
+3. Deploy. Vercel detects the static site automatically; `vercel.json` handles SPA fallback and caching.
+
+Or via CLI:
+```bash
+cd capstone-ecommerce
+npx vercel --prod
+```
+
 ### Live Demo
 
 [NovaCart on Vercel](https://ecommerece-capstone3.vercel.app/)
